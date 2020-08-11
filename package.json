@@ -1,0 +1,26 @@
+{
+  "name": "world_wide_bank_app",
+  "version": "1.0.0",
+  "description": "Bank Transactions app",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "babel server.js --out-dir build",
+    "dev-start": "babel-watch server.js"
+  },
+  "author": "Sagarica Parshi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodash": "^4.17.19"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-watch": "^7.0.0",
+    "jest": "^26.2.2"
+  }
+}

@@ -1,0 +1,6 @@
+/.idea/
+/build/
+/coverage/
+/node_modules/
+/wwb_app.iml
+/.DS_Store
